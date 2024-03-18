@@ -16,7 +16,7 @@ This chatbot is built using the Retrieval-Augmented Generation (RAG) framework, 
 It processes uploaded PDF documents by breaking them down into manageable chunks, creates a searchable vector store, and generates accurate answers to user queries.
 This advanced approach ensures high-quality, contextually relevant responses for an efficient and effective user experience.""")
 
-# This is the first API key input; no need to repeat it in the main function.
+
 api_key = st.text_input("Enter your Google API Key:", type="password", key="api_key_input")
 
 def get_pdf_text(pdf_docs):
